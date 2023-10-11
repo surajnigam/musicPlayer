@@ -1,0 +1,218 @@
+body{
+    /* background-color: beige; */
+    background-image: url(image/bg.jpg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 46px;
+    background-color:black;
+    color: white;
+}
+nav img{
+    height: 41px;
+    padding: 0 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.searchbox i{
+    font-size: 0.8rem;
+}
+/* search box */
+.searchbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .fa-search {
+    margin-left: 8px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .songItem.highlight {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .not-found-message {
+    justify-content: center;
+    align-items: center;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff37;
+    font-size: 2rem;
+    color: #721c24;
+   
+  }
+  
+  .not-found-message p {
+    margin: 0;
+  }
+.container{
+  
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.619);
+    min-height: 90vh;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    margin: 20px auto;
+    width: 70%;    
+    border-radius: 10px;
+    background-image: url(image/half-turned-sexy-woman-s-face-with-dark-makeup-portrait-seductive-woman-looking-down-pushing-her-hair-ear-bluish-pink-lightning.jpg);
+   
+    background-size: cover;
+}
+.songlist{
+    
+    color:white;
+    padding: 10px 10px;
+}
+.songlist h1{
+    margin-left: 5px;
+}
+.songcontainer{
+    margin-top: 34px;
+}
+
+.songItemContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+  }
+  
+  .songItem {
+    margin:5px 0px;
+    border: solid 2px rgba(245, 245, 245, 0.488);
+    background-color: rgba(0, 255, 255, 0.093);
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.619);
+  }
+
+  .songItem img {   
+    max-width: 40px;
+    margin-right: 10px;
+    border-radius: 100px;
+  }
+  
+  .songItem .songName {
+    font-weight:lighter;
+    font-style: normal;
+    /* margin-right: 5px; */
+    padding-right: 15px;
+    white-space:pre-line;
+    overflow: hidden;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    text-overflow: ellipsis;
+    flex-shrink: 1;
+    opacity:1;
+  }
+  
+  
+  .songItem .songlistplay {
+    margin: 0px 8px;
+    opacity: 2px;
+  }
+  
+  .sidebox{
+     /* display: flex; */
+     padding: 20vh 0vh;
+    
+    
+  }
+  #sidegif{
+    opacity: 0;
+  }
+
+
+
+.bottom{
+    background-image: url(image/bg2.jpg);
+   
+    position:sticky;
+    height: 70px;
+    /* background-color: rgba(21, 137, 179, 0.495); */
+    color: white;
+    bottom:0;
+    display: flex;
+    box-shadow: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#bar{
+    width:80vw;
+     margin-top: -20px;    
+}
+
+
+#next{    
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: whitesmoke;
+}
+#next:hover{
+    color: black;
+   
+}
+#masterPlay{    
+    font-size: 1.5rem;    
+    cursor: pointer;
+    color: whitesmoke;
+}
+#masterPlay:hover{
+    color: black;
+}
+
+#previous{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: whitesmoke;
+}
+#previous:hover{
+    color: black;   
+}
+
+
+
+
+
+.songinfo{
+    position:absolute;
+    left:10vw;   
+   
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in; 
+}
+

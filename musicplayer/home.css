@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+.largbox{
+   
+    box-shadow: 0 2px 6px rgba(22, 14, 14, 0.619);
+    /* min-height: auto; */
+    /* background-image: url(https://img.freepik.com/free-photo/artist-holding-microphone-stage-from-back_23-2148751583.jpg?w=740&t=st=1687851011~exp=1687851611~hmac=c7dcf9cee31eec7c2dba1f061485f0eba3445ee160d2016233c71c5d4d3cb433); */
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(124, 21, 55);
+    margin: 20px auto;
+    width: 70%;    
+    border-radius: 10px;
+}
+.coverbox{
+    flex-basis: 25%; 
+    justify-content: center;
+    position: relative;
+    align-items: center;
+   margin: 10px ;
+   margin-bottom: 30px;
+   margin-left: 96px;
+   /* background-color: rgb(255, 255, 255); */
+    min-width: 25vw;
+    height: 50vh;
+  }
+
+.smallboxs{
+    /* flex-basis: 25%;  */
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 50vh; 
+    background-color: #3a2a2a;   
+    background-size: cover;
+    overflow: hidden;   
+}
+#A1{
+    background-image: url(Home/2.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 6px rgba(22, 14, 14, 0.619);
+}
+#A2{
+    background-image: url(Home/1.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 6px rgba(22, 14, 14, 0.619);
+}
+#A3{
+    background-image: url(Home/3.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 6px rgba(22, 14, 14, 0.619);
+}
+#A4{
+    background-image: url(Home/4.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 6px rgba(22, 14, 14, 0.619);
+}
+#A5{
+    background-image: url(Home/5.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 6px rgba(22, 14, 14, 0.619);
+}
+#A6{
+    background-image: url(Home/6.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 6px rgba(22, 14, 14, 0.619);
+}
+.smallboxs img{
+    left: 0;
+    top: 0;
+    padding: 5px 5px;   
+    
+}
+.smallboxs p{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    color: whitesmoke;
+    background: #00000073;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+}
+
+.tagline {
+    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    opacity: 40%;
+}
+

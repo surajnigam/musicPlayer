@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+
+<body>
+    
+    <nav>
+        <div class="logo"><img src="image/whitelogo.png" alt=""></div>       
+        <ul>
+           <a href="Home.html" style="text-decoration: none; color: whitesmoke;"> <li >Home</li></a>
+            <li>About</li>
+            <li>Favorites</li>
+            <li>Liked</li>
+        </ul>
+       <div class="searchbox">
+        <input type="text" placeholder="search" class="search" >
+        <i class="fas fa-search"></i>        
+       </div>
+    </nav>
+    <div class="not-found-message">
+        <img src="image/404.png" alt="">
+        <!-- <p>Song not found</p> -->
+      </div>
+    <div class="container">  
+         
+        <!-- *********************************************** song list box ********************************************************************** -->      
+        <div class="songlist" >
+            <h1>Best Of Shakira</h1>
+            <div class="songcontainer">
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="0" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                
+                     <span class="songlistplay"> <i id="2" class="far songItemPlay fa-play-circle"></i></span>
+                     <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="3" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="4" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="5" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="6" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="7" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="8" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="9" class="far songItemPlay fa-play-circle"></i></span>
+                  <span Class="songName">Shape of you</span>
+                </div>
+                 <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="10" class="far songItemPlay fa-play-circle"></i></span>
+                     <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="11" class="far songItemPlay fa-play-circle"></i></span>
+                     <span Class="songName">Shape of you</span>
+                </div>
+
+                <div  class="songItem" >
+                    <img  alt="1" >                 
+                    <span class="songlistplay"> <i id="12" class="far songItemPlay fa-play-circle"></i></span>
+                     <span Class="songName">Shape of you</span>
+                </div>
+             
+            </div>
+        </div>
+        <div class="banner"></div>
+        <!-- *********************************************** song list box ********************************************************************** -->
+
+        <div class="sidebox">
+            <img id="sidegif" src="https://media3.giphy.com/media/4hskq67xMqnRpYwBXe/giphy.gif?cid=ecf05e47pynsyfyhndxqjmv3httiteiegnmiyea7ol57hu0a&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="">            
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="bar" value="0" min="0" max="100">
+        <div class="icon">            
+            <i  class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i  class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i  class="fas fa-3x fa-step-forward" id="next"></i> 
+           
+        </div>
+        <div class="songinfo">
+            <img id="gif" src="https://media2.giphy.com/media/RuXDblHMK1HSE/100.webp?cid=ecf05e479zwxw2gqii6zt8p3t00yy1j66xhe4vqm8t8yvjed&ep=v1_gifs_related&rid=100.webp&ct=s" alt="" width="80px"><span id="masterSongName">Whenever, Wherever.mp3</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+   
+
+</body>
+</html>
